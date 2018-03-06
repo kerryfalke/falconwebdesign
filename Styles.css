@@ -4,7 +4,19 @@ body {
 	background-position: center;
 	background-color: #BBDCF7;
 }
-.style1 {color: #FFF}
+.style1 {
+	color: #FFF;
+	font-size: 3rem;
+}
+
+header {
+	font-family: 'Tangerine', cursive;
+}
+
+.headertext {
+	font-size: 4rem;
+	font-weight: bold;
+}
 
 h1 {
     color: white;
@@ -29,7 +41,12 @@ footer {
    width:100%;
    background:#999;<br>
 }
+
+.fadetextin {
+	visibility: hidden;
+}
 .style3 {font-size: 12px}
+
 
 @media screen and (max-width: 576px) {
 	body {
