@@ -1,4 +1,3 @@
 $(document).ready(function() {
-  $('.fadeHeader').hide().delay(1000).fadeIn(2000).delay();
+  $('.fadedtext').animate({opacity: 1}, 5000);
 });
-$('#fadeMessage').hide().delay(2000).fadeIn(1000);

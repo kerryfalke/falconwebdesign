@@ -33,6 +33,11 @@ h3 {
 	box-shadow: 5px 5px 10px #444;
 	display: inline-block;
 }
+
+.fadedtext {
+	opacity: 0;
+}
+
 footer {
    position:fixed;
    left:0px;
